@@ -31,7 +31,7 @@ post-quantum cryptography**.
 | **[SecureAI Agent](https://github.com/akrishnash/secureai-agent)** | AI agent for cybersecurity — ingests logs, PCAP & CVEs, returns threat explanations, attack paths & mitigations | GPT · RAG · Tool Calling |
 | **AirGapGPT** *(coming soon)* | Offline, air-gapped enterprise AI: chat, document RAG, RBAC, and audit logging — runs with zero internet | Ollama · ChromaDB · FastAPI |
 | **5G Sentinel** *(coming soon)* | AI-assisted 5G core analysis — upload PCAP, get UE registration & NGAP explanations with security insights | Free5GC · LLM · PCAP |
-| **PQC WireGuard** *(coming soon)* | Post-quantum VPN: ML-KEM integration into WireGuard with handshake benchmarks | ML-KEM · WireGuard · Rust/Go |
+| **[PQC WireGuard](https://github.com/akrishnash/wg-vishwaas)** *(WIP)* | Post-quantum VPN: ML-KEM integration into WireGuard with handshake benchmarks | ML-KEM · WireGuard |
 
 ---
 
