@@ -13,11 +13,14 @@ post-quantum cryptography**.
   <a href="https://akrishnash.github.io">
     <img src="https://img.shields.io/badge/Portfolio-akrishnash.github.io-00f5ff?style=for-the-badge&logo=githubpages&logoColor=0a0a0f" alt="Portfolio" />
   </a>
+  <a href="https://akrishnash.github.io/writing">
+    <img src="https://img.shields.io/badge/Writing-Articles-ff6b00?style=for-the-badge&logo=readme&logoColor=ffffff" alt="Writing" />
+  </a>
   <a href="https://github.com/akrishnash">
-    <img src="https://img.shields.io/badge/GitHub-akrishnash-ff6b00?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-akrishnash-2ea44f?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
   </a>
   <a href="mailto:anuragadrin@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-2ea44f?style=for-the-badge&logo=gmail&logoColor=ffffff" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-Contact-555?style=for-the-badge&logo=gmail&logoColor=ffffff" alt="Email" />
   </a>
 </p>
 
@@ -63,7 +66,13 @@ post-quantum cryptography**.
 ## ✍️ Writing
 
 I write about secure AI, AI agents, and post-quantum networking.
-*Articles coming soon — [Portfolio](https://akrishnash.github.io)*
+
+| Article | Topic | Read time |
+|---------|-------|-----------|
+| **[Building Secure AI Agents with Tool Calling](https://akrishnash.github.io/writing/secure-ai-agents-tool-calling.html)** | Grounding, bounded loops, trust levels & audit trails for production AI agents | 14 min |
+| **[Replacing X25519 with ML-KEM in WireGuard](https://akrishnash.github.io/writing/pqc-wireguard.html)** | Hybrid KEM approach for post-quantum VPN — architecture, tradeoffs & benchmarks | 12 min |
+
+→ **[View all writing](https://akrishnash.github.io/writing)**
 
 ## 📫 Contact
 
