@@ -30,11 +30,12 @@ post-quantum cryptography**.
 
 | Project | What it is | Stack |
 |---------|-----------|-------|
-| **[VISHWAAS](https://github.com/akrishnash/vishwaas)** | Secure enterprise VPN with a WireGuard control plane, approval-gated joins & connections, audit logs, and an AI assistant | WireGuard · FastAPI · React |
-| **[SecureAI Agent](https://github.com/akrishnash/secureai-agent)** | AI agent for cybersecurity — ingests logs, PCAP & CVEs, returns threat explanations, attack paths & mitigations | GPT · RAG · Tool Calling |
-| **AirGapGPT** *(coming soon)* | Offline, air-gapped enterprise AI: chat, document RAG, RBAC, and audit logging — runs with zero internet | Ollama · ChromaDB · FastAPI |
-| **5G Sentinel** *(coming soon)* | AI-assisted 5G core analysis — upload PCAP, get UE registration & NGAP explanations with security insights | Free5GC · LLM · PCAP |
-| **[PQC WireGuard](https://github.com/akrishnash/wg-vishwaas)** *(WIP)* | Post-quantum VPN: ML-KEM integration into WireGuard with handshake benchmarks | ML-KEM · WireGuard |
+| **[agent-cost](https://akrishnash.github.io/agent-cost/)** *(live)* | Interactive token-cost explorer for tool-calling agents — history replays every turn, so cost grows quadratically. Per-turn breakdown, caching effect, 12 currencies | JavaScript · LLM |
+| **[SecureAI Agent](https://github.com/akrishnash/anomaly-detection)** *([live demo](https://anomaly-detection-5e6hvdpv5q7dmmisymrpdh.streamlit.app/))* | GPT-4o tool-calling agent over an Isolation Forest detector; CVE + MITRE ATT&CK enrichment. Validated on CTU-13 (55% recall, zero labels) | OpenAI · scikit-learn |
+| **[VISHWAAS](https://github.com/akrishnash/vishwaas)** | Secure enterprise VPN with a WireGuard control plane, approval-gated joins, audit logs, and an AI assistant | WireGuard · FastAPI · React |
+| **PQC WireGuard** | Post-quantum VPN: ML-KEM in WireGuard's userspace handshake. First-author paper, **IEEE COMSNETS 2026** | ML-KEM · WireGuard |
+
+**Open source:** contributed the [multi-turn tool-call loop example](https://github.com/openai/openai-python/pull/3439) to `openai/openai-python` (the Responses API agent pattern).
 
 ---
 
